@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BD - Podcasts</title>
+    <link rel="icon" href="./assets/iconfinder_podcast-social-media_765222.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/bb59c00efd.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,500,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar"></div>
+    <div class="container">
+        <div class="barcont">
+            <img src="./assets/logo.svg" alt="logo" class="logonav">
+            <nav class="navbar">
+                <input type="checkbox" id="burger-shower" class="burger-shower">
+                <label for="burger-shower" class="hamburger"><i class="fas fa-bars"></i></label>
+                <label for="burger-shower" class="openav"><i class="fas fa-times"></i></label>
+                <ul class="menunav">
+                    <li class="list fisrtlink"><a href="#episodes"
+                            class="plex-mono link navlink lettereffect">EPISODIOS</a></li>
+                    <li class="list"><a href="#aboutus" class="plex-mono link navlink lettereffect">NOSOTROS</a></li>
+                    <li class="list"><a href="#interviews" class="plex-mono link navlink lettereffect">ENTREVISTAS</a>
+                    </li>
+                    <li class="list"><a href="#topics" class="plex-mono link navlink lettereffect">TÓPICOS</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header class="heading">
+            <h1 class="title plex-sans">Hello <span class="line-through">world</span> pale blue dot <span
+                    class="bluedot">.</span> </h1>
+            <p class="letterhead plex-mono">Un podcast que explora el mundo de la programación y <br class="break"> la
+                tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <a href="https://syntax.fm/" class="button link plex-mono getmore" target="_blank">CONOCÉ MÁS</a>
+        </header>
+        <section class="episodes">
+            <h2 class="plex-sans subtitle episodysub" id="episodes">Episodios</h2>
+            <div class="playercontainer">
+                <iframe src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="300" height="80"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" width="300" height="80"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" width="300" height="80"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/5mddqHiI96V0ZMdMidn3WW" width="300"
+                    height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"
+                    class="player playerlast"></iframe>
+            </div>
+        </section>
+        <div class="repositioning">
+            <img src="./assets/phone.png" alt="phone" class=phoneimg>
+            <section class="comefrom">
+                <h2 class="plex-sans subtitle comefromsub" id="aboutus">De dónde venimos</h2>
+                <p class="plex-mono comefromtext">
+                    Our posturings, our imagined self-importance, the delusion that we have some privileged position in
+                    the Universe, are challenged by this point of pale light.<br><br>
+                    Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                    vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                </p>
+            </section>
+            <section class="guests" id="interviews">
+                <h2 class="plex-sans subtitle guestsub">Invitadas/os estelares</h2>
+                <img src="./assets/grace-hopper.png" alt="grace-hopper" class="guestimg">
+                <img src="./assets/Katie-Bouman.png" alt="Katie-Bouman" class="guestimg">
+                <img src="./assets/Margaret_Hamilton.png" alt="Margaret_Hamilton" class="guestimg">
+                <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="1103 computer" class="guestimg">
+                <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                    alt="computer operators" class="guestimg">
+                <img src="./assets/susan-kare.png" alt="susan-kare" class="guestimg">
+            </section>
+            <section class="topics">
+                <h2 class="plex-sans subtitle topicsub" id="topics">Algunos de nuestros temas</h2>
+                <div class="topicscontainer">
+                    <figure class="topicbox">
+                        <img src="./assets/icon1.svg" alt="icon1" class=icons>
+                        <p class="plex-sans icondesc firstitem">Trabajo Remoto</p>
+                    </figure> 
+                    <figure class="topicbox">
+                        <img src="./assets/icon2.svg" alt="icon2" class="icons">
+                        <p class="plex-sans icondesc">Repensando la programación</p>
+                    </figure>
+                    <figure class="topicbox">
+                        <img src="./assets/icon3.svg" alt="icon3" class="icons">
+                        <p class="plex-sans icondesc">Bases del Código</p>
+                    </figure>
+                    <figure class="topicbox">
+                        <img src="./assets/icon4.svg" alt="icon4" class="icons">
+                        <p class="plex-sans icondesc lastitem">Seguridad informática</p>
+                    </figure>
+                </div>
+            </section>
+            <section class="lastnews">
+                <h2 class="plex-sans subtitle newsub">¿Querés las últimas novedades?</h2>
+                <a href="https://syntax.fm/" class="button link plex-mono listen" target="_blank">ESCUCHÁ LOS
+                    EPISODIOS</a>
+            </section>
+            <footer>
+                <p class="plex-mono copyright">© 2019— Hello blue pale dot</p>
+                <div class="brands">
+                    <a href="https://spotify.com" target="_blank"><i class="fab fa-spotify brandicon firtsicon"></i></a>
+                    <a href="https://instragram.com" target="_blank"><i class="fab fa-instagram brandicon"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter brandicon"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook brandicon"></i></a>
+                    <a href="https://web.telegram.org" target="_blank"><i class="fab fa-telegram brandicon"></i></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="sidebar"></div>
+</body>
+
+</html>
