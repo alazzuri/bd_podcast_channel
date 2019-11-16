@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/bb59c00efd.js"></script>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,500,600&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,21 +44,20 @@
             <h2 class="plex-sans subtitle episodysub" id="episodes">Episodios</h2>
             <div class="playercontainer">
                 <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="300" height="80"
-                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"></iframe>
+                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player" data-aos="fade-right"></iframe>
                 <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="300" height="80"
-                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"></iframe>
+                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"data-aos="fade-left"></iframe>
                 <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="300" height="80"
-                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"></iframe>
-                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="300"
-                    height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"
-                    class="player playerlast"></iframe>
+                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player" data-aos="fade-right"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="300"height="80"
+                    frameborder="0" allowtransparency="true" allow="encrypted-media" class="player playerlast" data-aos="fade-left"></iframe>
             </div>
         </section>
         <div class="repositioning">
-            <img src="./assets/phone.png" alt="phone" class=phoneimg>
+            <img data-aos="fade-up-right" src="./assets/phone.png" alt="phone" class=phoneimg>
             <section class="comefrom">
-                <h2 class="plex-sans subtitle comefromsub" id="aboutus">De dónde venimos</h2>
-                <p class="plex-mono comefromtext">
+                <h2 class="plex-sans subtitle comefromsub" id="aboutus" data-aos="zoom-in">De dónde venimos</h2>
+                <p class="plex-mono comefromtext" data-aos="zoom-in">
                     Our posturings, our imagined self-importance, the delusion that we have some privileged position in
                     the Universe, are challenged by this point of pale light.<br><br>
                     Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
@@ -65,39 +65,39 @@
                 </p>
             </section>
             <section class="guests" id="interviews">
-                <h2 class="plex-sans subtitle guestsub">Invitadas/os estelares</h2>
-                <img src="./assets/grace-hopper.png" alt="grace-hopper" class="guestimg">
-                <img src="./assets/Katie-Bouman.png" alt="Katie-Bouman" class="guestimg">
-                <img src="./assets/Margaret_Hamilton.png" alt="Margaret_Hamilton" class="guestimg">
-                <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="1103 computer" class="guestimg">
+                <h2 class="plex-sans subtitle guestsub" data-aos="zoom-in">Invitadas/os estelares</h2>
+                <img src="./assets/grace-hopper.png" alt="grace-hopper" class="guestimg" data-aos="zoom-out">
+                <img src="./assets/Katie-Bouman.png" alt="Katie-Bouman" class="guestimg" data-aos="zoom-out">
+                <img src="./assets/Margaret_Hamilton.png" alt="Margaret_Hamilton" class="guestimg" data-aos="zoom-out">
+                <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="1103 computer" class="guestimg" data-aos="zoom-out">
                 <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
-                    alt="computer operators" class="guestimg">
-                <img src="./assets/susan-kare.png" alt="susan-kare" class="guestimg">
+                    alt="computer operators" class="guestimg" data-aos="zoom-out">
+                <img src="./assets/susan-kare.png" alt="susan-kare" class="guestimg" data-aos="zoom-out">
             </section>
             <section class="topics">
-                <h2 class="plex-sans subtitle topicsub" id="topics">Algunos de nuestros temas</h2>
+                <h2 class="plex-sans subtitle topicsub" id="topics" data-aos="zoom-in">Algunos de nuestros temas</h2>
                 <div class="topicscontainer">
-                    <figure class="topicbox">
+                    <figure class="topicbox" data-aos="flip-up">
                         <img src="./assets/icon1.svg" alt="icon1" class=icons>
                         <p class="plex-sans icondesc firstitem">Trabajo Remoto</p>
                     </figure> 
-                    <figure class="topicbox">
+                    <figure class="topicbox" data-aos="flip-up">
                         <img src="./assets/icon2.svg" alt="icon2" class="icons">
                         <p class="plex-sans icondesc">Repensando la programación</p>
                     </figure>
-                    <figure class="topicbox">
+                    <figure class="topicbox" data-aos="flip-up">
                         <img src="./assets/icon3.svg" alt="icon3" class="icons">
                         <p class="plex-sans icondesc">Bases del Código</p>
                     </figure>
-                    <figure class="topicbox">
+                    <figure class="topicbox" data-aos="flip-up">
                         <img src="./assets/icon4.svg" alt="icon4" class="icons">
                         <p class="plex-sans icondesc lastitem">Seguridad informática</p>
                     </figure>
                 </div>
             </section>
             <section class="lastnews">
-                <h2 class="plex-sans subtitle newsub">¿Querés las últimas novedades?</h2>
-                <a href="https://syntax.fm/" class="button link plex-mono listen" target="_blank">ESCUCHÁ LOS
+                <h2 class="plex-sans subtitle newsub" data-aos="zoom-in">¿Querés las últimas novedades?</h2>
+                <a href="https://syntax.fm/" class="button link plex-mono listen" target="_blank" data-aos="zoom-in">ESCUCHÁ LOS
                     EPISODIOS</a>
             </section>
             <footer>
@@ -113,6 +113,9 @@
         </div>
     </div>
     <div class="sidebar"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>  
+    <script>AOS.init();
+    </script>
 </body>
 
 </html>
